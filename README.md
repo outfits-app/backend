@@ -139,12 +139,18 @@ response:
 
 ```
   {
-    "name": "Camisa roja",
-    "color": "64ca77265cf35ef21b7ece3f",
-    "category": "64ca77ce5cf35ef21b7ece58",
-    "image_url": "http://res.cloudinary.com/duuc0zmxs/auto/upload/64ca785c5cf35ef21b7ece60",
-    "id": "64ca785c5cf35ef21b7ece60"
-  }
+      "name": "name", 
+      "category": {
+        "name": "name",  
+        "id": "1"
+      },
+      "color": {
+        "name": "name",  
+        "id": "1"
+      },
+      "img_url": "url",
+      "id": "1"
+    } 
 ```
 
 ### create clothing
