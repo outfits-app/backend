@@ -1,4 +1,4 @@
-import * as express from "express";
+import express from "express";
 import envs from "./config/index";
 import routes from "./routes/index";
 import { connect } from "./db";

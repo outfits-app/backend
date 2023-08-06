@@ -3,7 +3,10 @@
     "lib": ["es6"],
     "alwaysStrict": true,
     "strictNullChecks": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "esModuleInterop":true,
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext"
   },
   "files": ["src/index.ts"]
 }

@@ -1,4 +1,4 @@
-import * as Multer from "multer";
+import Multer from "multer";
 
 const storage = Multer.memoryStorage();
 export const upload = Multer({
