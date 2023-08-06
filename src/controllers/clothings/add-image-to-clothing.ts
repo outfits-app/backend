@@ -25,9 +25,7 @@ export const addImageToClothing = async (
       overwrite: true,
     });
 
-    const image_url = cloudinary.url(id, {
-      resource_type: "auto",
-    });
+    const image_url = cloudinary.url(id);
 
     clothing.image_url = image_url;
 
