@@ -19,6 +19,8 @@
 
 ## Endpoints
 
+- api: https://backend-ot4e.onrender.com
+
 ### all colors
 
 GET - /api/colors 
