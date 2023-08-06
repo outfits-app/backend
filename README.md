@@ -28,7 +28,7 @@ GET - /api/colors
 ```
   [
     {
-      "name": "name",  
+      "color": "name",  
       "id": "1"
     } 
   ]
@@ -42,7 +42,7 @@ POST - /api/colors
 ```
 
   {
-    "name": "name",  
+    "color": "name",  
   } 
 
 ```
@@ -54,7 +54,7 @@ GET - /api/categories
 ```
   [
     {
-      "name": "name",  
+      "category": "name",  
       "id": "1"
     } 
   ]
@@ -68,7 +68,7 @@ POST - /api/categories
 ```
 
   {
-    "name": "name",  
+    "category": "name",  
   } 
 
 ```
@@ -83,11 +83,11 @@ GET - /api/clothings?category=1&color=1
     {
       "name": "name", 
       "category": {
-        "name": "name",  
+        "category": "name",  
         "id": "1"
       },
       "color": {
-        "name": "name",  
+        "color": "name",  
         "id": "1"
       },
       "img_url": "url",
@@ -106,11 +106,11 @@ GET - /api/clothings/:id
   {
     "name": "name", 
     "category": {
-      "name": "name",  
+      "category": "name",  
       "id": "1"
     },
     "color": {
-      "name": "name",  
+      "color": "name",  
       "id": "1"
     },
     "img_url": "url",
@@ -141,11 +141,11 @@ response:
   {
       "name": "name", 
       "category": {
-        "name": "name",  
+        "category": "name",  
         "id": "1"
       },
       "color": {
-        "name": "name",  
+        "color": "name",  
         "id": "1"
       },
       "img_url": "url",
@@ -185,11 +185,11 @@ GET - /api/outfits?category=1&color=1
         {
           "name": "name", 
           "category": {
-            "name": "name",  
+            "category": "name",  
             "id": "1"
           },
           "color": {
-            "name": "name",  
+            "color": "name",  
             "id": "1"
           },
           "img_url": "url",
@@ -212,11 +212,11 @@ GET - /api/outfits/:id
         {
           "name": "name", 
           "category": {
-            "name": "name",  
+            "category": "name",  
             "id": "1"
           },
           "color": {
-            "name": "name",  
+            "color": "name",  
             "id": "1"
           },
           "img_url": "url",
