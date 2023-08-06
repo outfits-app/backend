@@ -17,7 +17,6 @@ export const clothingSchema = new Schema({
   },
   image_url: {
     type: Schema.Types.String,
-    required: true,
     default: ""
   },
 });

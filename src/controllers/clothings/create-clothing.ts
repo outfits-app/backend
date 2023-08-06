@@ -15,7 +15,7 @@ export const createClothing = async (
   try {
     const clothing = req.body;
 
-    const newClothing = new Clothing(clothing);
+    const newClothing = new Clothing({...clothing, image_url:""});
 
     const savedClothing = await newClothing.save();
 
